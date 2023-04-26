@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+
+    <link rel="stylesheet" type="text/css" href="booking.css">
+</head>
+<body>
+    
+    <div class="logo">
+        <img src="img/Logo.png" alt="">
+        </div>
+
+    <div class="container">
+        <div class="progress-container">
+        <div class="progress" id="progress"></div>
+        <div class="circle active">1</div>
+        <div class="circle">2</div>
+        <div class="circle">3</div>
+        <div class="circle">4</div>
+        </div>
+    </div>
+    <div class="fig">
+        <h6>Search</h6>
+        <h6>Recommended services</h6>
+        <h6>Results</h6>
+        <h6>Booking</h6>
+</div>
+<div class="book">
+    <h2 class="book1">Booking summary</h2>
+    <div class="palne">
+ <img src="img/Plane.jpg">
+ <h6 class="ex">Express</h6>
+</div>
+</div>
+
+<div class="weight">
+    <div class="weight1">
+    <img src="img/Weight.jpg">
+</div>
+</div>
+
+ <div class="load">
+    <h2 class="load1"> Load</h2>
+    <div class="loadimg">
+   <img src="img/Load.jpg">
+   </div>
+ </div>
+<h3 class="x">1X</h3>
+
+<div class="seller">
+<h2 class="seller1">Seller: Primetime Worldwide</h2>
+<div class="sellerimg">
+    <img src="img/seller.jpg">
+</div>
+</div>
+
+<div class="xcover">
+<h3 class="xcover1">Insurance:Xcover.com</h3>
+<div class="xcoverimg">
+    <img src="img/Xcover.jpg">
+</div>
+</div>
+
+<div class="price">
+<h3 class="price1"> Price details</h3> 
+</div>
+<div class="known">
+<img src="img/known.png">
+</div>
+
+<div>
+    <h4 class="quote">Seller’s Quote </h4>
+    <h4 class="quote1">$ 3,659.25 </h4>
+</div>
+<div class="line1">
+</div>
+
+<div class="dtimg">
+    <img src="img/Duties adn insurance.png" alt="">
+</div>
+
+<div class="line2">
+</div>
+
+
+<div class="fee">
+    <img src="img/fee.png" alt="">
+</div>
+
+<div class="line3">
+</div>
+
+<div class="fee">
+    <img src="img/Total.png" alt="">
+</div>
+<div class="line3">
+</div>
+<div >
+   <a href="home.html" ><button class="checkout" type="button">Checkout</button></a>
+</div>
+
+<div>
+    <button class="open-button" onclick="openForm()">Chat</button>
+</div>
+<div class="chat-popup" id="myForm">
+    <form action="action_page.php" class="form-container">
+  
+      <label for="msg"><b>Message</b></label>
+      <textarea placeholder="Type message.." name="msg" required></textarea>
+  
+      <button type="submit" class="btn">Send</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
